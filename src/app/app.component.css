@@ -68,11 +68,27 @@ main>p {
 }
 
 .content {
-  column-count: 2;
+  padding: 1rem 0;
 }
 
 .content .notice {
-  padding: 0.5rem 0;
+  width: 45%;
+  margin: 0.5rem 2.5% 1rem 2.5%;
+  padding: 0 0 0.5rem 0;
+  border: 1px solid #CCCCCC;
+  border-radius: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.notice h2, .notice p, .notice a {
+  text-align: left;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.content img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
 }
 
 /* sideMenu Section */
@@ -86,6 +102,23 @@ main>p {
   border: 1px solid black;
   box-sizing: border-box;
 }
+
+.sideMenu ul li {
+  padding: 0.5rem 0;
+}
+
+.sideMenu ul li:first-child {
+  font-weight: bold;
+}
+
+.sideMenu ul li:not(:first-child) {
+  color: #9b9b9b;
+}
+
+.sideMenu ul li:not(:first-child){
+  border-bottom: 1px solid #CCCCCC ;
+}
+
 
 
 
