@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./styles/reset.css', './styles/app.component.css', './styles/media.query.css']
 })
 export class AppComponent implements OnInit {
   notices: any[] = [];

@@ -1,0 +1,82 @@
+/* Main */
+
+
+/* Content Section */
+
+main>h1 {
+  text-align: center;
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main>p {
+  text-align: center;
+  margin: 0 0 3rem;
+  color: #CCCCCC;
+  font-size: 1rem;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin: 0 1.5% 0 1%;
+  padding: 0 0.5rem;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.notice {
+  flex-basis: 40%;
+  margin: 0.5rem 5% 1rem 5%;
+  padding: 0 0 0.5rem 0;
+  border: 1px solid #CCCCCC;
+  border-radius: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.notice h2, .notice p, .notice a {
+  text-align: left;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.content img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+
+/* sideMenu Section */
+
+.sideMenu {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1.5% 0 1%;
+  padding: 0 0.5rem;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.sideMenu ul li {
+  padding: 0.5rem 0;
+}
+
+.sideMenu ul li:first-child {
+  font-weight: bold;
+}
+
+.sideMenu ul li:not(:first-child) {
+  color: #9b9b9b;
+}
+
+.sideMenu ul li:not(:first-child) {
+  border-bottom: 1px solid #CCCCCC;
+}
