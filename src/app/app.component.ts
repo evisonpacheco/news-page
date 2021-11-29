@@ -15,11 +15,12 @@ export class AppComponent implements OnInit {
     this.getNews();
   }
 
-
   getNews() {
     this.NoticeService.getNews()
+      .then(data => this.notices = data)
       .then(data => console.log(data))
       .catch(error => console.log(error))
+
   }
 }
 
