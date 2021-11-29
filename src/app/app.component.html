@@ -3,12 +3,12 @@
   <h1>Exibindo resultados de busca por "Covid 19"</h1>
   <p>Foram encontrados os seguintes resultados</p>
 
-  <section class="content">
+  <section class="content" *ngFor="let notice of notices">
 
     <div class="notice">
       <img src="../assets/images/noticeBanner.svg" alt="Capa da notícia">
-      <h2>Título Notícia 1</h2>
-      <p>Descrição notícia</p>
+      <h2>{{ notice }}</h2>
+      <p></p>
       <a href="#">Leia Mais</a>
     </div>
 
