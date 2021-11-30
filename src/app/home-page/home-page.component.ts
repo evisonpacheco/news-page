@@ -7,7 +7,7 @@ import { NoticeService } from 'services/notice.service';
   styleUrls: ['../styles/reset.css', '../styles/main.css', '../styles/media.query.css']
 })
 export class HomePageComponent implements OnInit {
-  notices: any[] = [];
+  notices: any;
 
   constructor(private NoticeService: NoticeService) { }
 
