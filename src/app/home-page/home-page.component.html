@@ -1,0 +1,36 @@
+<div class="top">
+  <h1 class="mainTitle">Exibindo resultados de busca por "Covid 19"</h1>
+  <p class="mainSubtitle">Foram encontrados os seguintes resultados</p>
+</div>
+
+<ul class="content">
+  <div class="flexBox">
+    <li class="notice" *ngFor="let notice of notices">
+      <img src="../assets/images/noticeBanner.svg" alt="Capa da notícia">
+      <div class="flexContentBox">
+        <h2>{{ notice.id }} - {{ notice.title }}</h2>
+        <p>{{ notice.body }}</p>
+        <a routerLink="/details">Leia Mais</a>
+      </div>
+    </li>
+  </div>
+</ul>
+
+<section class="sideMenu">
+  <ul>
+    <li>Navegação</li>
+    <li>
+      <a routerLink="/home-page">Home Page</a>
+    </li>
+    <li><a routerLink="/new-notice">Cadastrar Notícia</a></li>
+    <li>Categoria Três</li>
+    <li>Categoria Quatro</li>
+  </ul>
+
+  <div class="searchBox">
+    <p>Pocurando alguma notícia?</p>
+    <input type="text" name="text" placeholder="Faça a sua pesquisa">
+    <button>Pesquisar</button>
+  </div>
+
+</section>

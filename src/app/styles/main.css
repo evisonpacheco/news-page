@@ -1,16 +1,20 @@
-/* Main */
+/* Top Div */
+
+.top {
+  height: 10vh;
+}
 
 
 /* Content Section */
 
-main>h1 {
+.mainTitle {
   text-align: center;
   margin: 0 0 0.5rem;
   font-size: 2rem;
   font-weight: bold;
 }
 
-main>p {
+.mainSubtitle {
   text-align: center;
   margin: 0 0 3rem;
   color: #CCCCCC;
@@ -43,7 +47,6 @@ main>p {
 .notice img {
   width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
-  justify-content: flex-start;
 }
 
 .notice h2, .notice p, .notice a {
@@ -75,14 +78,13 @@ main>p {
   color: #15589c;
 }
 
-
-/* .flexContentBox {
+.flexContentBox {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   box-sizing: border-box;
-} */
+}
 
 
 /* sideMenu Section */
@@ -112,13 +114,25 @@ main>p {
   border-bottom: 1px solid #CCCCCC;
 }
 
+
+/* SearchBox */
+
 .searchBox {
   margin: 3rem auto 0;
+}
+
+.searchBox input {
   width: 100%;
+  border-radius: 5px;
+  padding: 0.5rem 0.1rem;
 }
 
 .searchBox p {
   font-weight: bold;
   font-size: 0.9rem;
   margin: 0 auto 0.1rem;
+}
+
+.searchBox button {
+  margin: 0.5rem auto 0;
 }
