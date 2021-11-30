@@ -13,6 +13,8 @@ export class NoticeService {
     return this.httpClient.get<noticeInterface[]>("https://jsonplaceholder.typicode.com/posts").toPromise();
   }
 
+  add(notice: noticeInterface) {
+    return this.httpClient.post<noticeInterface>('https://jsonplaceholder.typicode.com/posts', notice).toPromise();
   }
 
 }

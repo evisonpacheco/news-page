@@ -1,0 +1,38 @@
+<div class="top">
+</div>
+
+<section class="content">
+  <article class="addNewNotice">
+    <h3>Cadastre uma nova notícia:</h3>
+    <label for="titleNotice">Título:</label>
+    <input id="titleNotice" type="text" [(ngModel)]="titleNotice">
+    <label for="contentNotice">Descrição:</label>
+    <textarea id="contentNotice" rows="5" [(ngModel)]="contentNotice"></textarea>
+    <button (click)="addNews()">Adicionar</button>
+  </article>
+
+  <article class="newNotice">
+    <h2>{{ warning }}</h2>
+    <h3>{{ newNotice.id }} - {{ newNotice.title }}</h3>
+    <p>{{ newNotice.body }}</p>
+  </article>
+</section>
+
+<section class="sideMenu">
+  <ul>
+    <li>Navegação</li>
+    <li>
+      <a routerLink="/home-page">Home Page</a>
+    </li>
+    <li><a routerLink="/new-notice">Cadastrar Notícia</a></li>
+    <li>Categoria Três</li>
+    <li>Categoria Quatro</li>
+  </ul>
+
+  <div class="searchBox">
+    <p>Pocurando alguma notícia?</p>
+    <input class="searchText" type="text" name="" placeholder="Faça a sua pesquisa">
+    <button>Pesquisar</button>
+  </div>
+
+</section>

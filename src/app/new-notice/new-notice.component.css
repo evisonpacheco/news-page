@@ -1,0 +1,66 @@
+.notice a {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #1e90ff;
+}
+
+.notice a:hover {
+  text-decoration: underline;
+  color: #15589c;
+}
+
+.addNewNotice h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.addNewNotice label {
+  display: block;
+  text-align: center;
+  margin: 1rem 0 0;
+}
+
+.addNewNotice input {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  resize: none;
+}
+
+.addNewNotice textarea {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  resize: none;
+}
+
+.addNewNotice button {
+  display: block;
+  margin: 1rem auto;
+}
+
+.newNotice {
+  text-align: center;
+}
+
+.newNotice h2 {
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+}
+
+.newNotice h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+}
+
+.newNotice p {
+  text-transform: lowercase;
+}
+
+.newNotice p::first-letter {
+  text-transform: uppercase;
+}
