@@ -1,1 +1,20 @@
-@media screen and (min-width: 1000px) {}
+@media screen and (max-width: 940px) {
+  /* Home Page */
+  .content {
+    width: 70%;
+    margin: 0;
+    padding: 0 0.5rem;
+  }
+  .notice {
+    flex-basis: 100%;
+  }
+  .sideMenu {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+  }
+  /* New Notice Page */
+  .addNewNotice input, .addNewNotice textarea {
+    width: 90%;
+  }
+}

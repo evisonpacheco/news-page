@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-new-notice',
   templateUrl: './new-notice.component.html',
-  styleUrls: ['../styles/reset.css', '../styles/main.css', '../styles/media.query.css', './new-notice.component.css']
+  styleUrls: ['../styles/reset.css', '../styles/main.css', './new-notice.component.css', '../styles/media.query.css']
 })
 
 export class NewNoticeComponent {
