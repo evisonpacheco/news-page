@@ -1,27 +1,28 @@
-# AngularTest
+### Português Abaixo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+---
+## English
+### News Page
 
-## Development server
+- Aplication developed in Angular, with WebAPI consumption.
+   - GET method for create the Home Page (news page). 
+   - POST method for registering a new news item.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Developed in HTML and Vanilla CSS, without Bootstrap or similar framworks.
+   - Using Media Query to achieve responsiveness for different screen sizes.
 
-## Code scaffolding
+- Aplication created as a Single Page Aplication.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Português
+### Página de Notícias
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Aplicação desenvolvida em Angular, com consumo de WebAPI.
+   - Método GET para criar a Home Page (página de notícias). 
+   - Método POST para cadastrar uma nova notícia.
 
-## Running unit tests
+- Desenvolvida com HTML e Vanilla CSS, sem Bootstrap ou frameworks similares.
+   - Utilização de Media Query para obter responsividade para diferentes tamanhos de telas.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Aplicação criada em forma de Single Page Aplication.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
